@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.1.1 - 2024-11-29
+#### Bug Fixes
+- build config for cloudflare pages - (1dbfdb4) - Giacomo Marinangeli
+
+- - -
+
 ## 0.1.0 - 2024-11-29
 #### Bug Fixes
 - package lock - (78eefa4) - Giacomo Marinangeli
