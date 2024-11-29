@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.2.0 - 2024-11-29
+#### Features
+- add 404 page and layout - (0e16390) - Giacomo Marinangeli
+#### Miscellaneous Chores
+- update README - (5e117c4) - Giacomo Marinangeli
+
+- - -
+
 ## 0.1.1 - 2024-11-29
 #### Bug Fixes
 - build config for cloudflare pages - (1dbfdb4) - Giacomo Marinangeli
