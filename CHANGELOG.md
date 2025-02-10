@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.0 - 2025-02-10
+#### Features
+- playing with tailscale v4 - (67bd7b0) - Giacomo Marinangeli
+
+- - -
+
 ## 0.2.0 - 2024-11-29
 #### Features
 - add 404 page and layout - (0e16390) - Giacomo Marinangeli
