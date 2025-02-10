@@ -13,22 +13,19 @@ const links: Link[] = [
 ];
 ---
 <Layout title="Giacomo Marinangeli" description="Linktree of Giacomo Marinangeli">
-    <h1 class="md:text-6xl text-4xl font-black text-center">
-    Giacomo Marinangeli
+    <h1 class="md:text-6xl text-4xl font-extralight tracking-wide text-center">
+        Giacomo Marinangeli
     </h1>
-    <div class="grid justify-center gap-4">
+    <!-- <div class="grid justify-center gap-4">
     {
         links.map(({ desc, link, icon }) => {
         return <Card {desc} {link} {icon} />;
         })
     }
-    </div>
+    </div> -->
     <div class="flex justify-center gap-8">
-    <Chip
-        link="https://linkedin.com/in/giacomomarinangeli"
-        icon="fa-brands fa-linkedin"
-    />
-    <Chip link="https://github.com/jibbolo" icon="fa-github" />
-    <Chip link="https://x.com/jibbolo" icon="fa-x-twitter" />
+        <Chip icon="fa-linkedin"  link="https://linkedin.com/in/giacomomarinangeli"/>
+        <Chip icon="fa-github"    link="https://github.com/jibbolo"/>
+        <Chip icon="fa-x-twitter" link="https://x.com/jibbolo"/>
     </div>
 </Layout>

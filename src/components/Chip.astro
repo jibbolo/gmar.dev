@@ -6,11 +6,6 @@ interface Props {
 const { link, icon } = Astro.props;
 ---
 
-<a
-  class="text-3xl"
-  aria-label="link"
-  target="_blank"
-  rel="noopener noreferrer nofollow"
-  target="_blank"
-  href={link}><i class={`fa-brands ${icon}`}></i></a
->
+<a href={link} class="text-3xl hover:text-primary" aria-label="link" target="_blank" rel="noopener noreferrer nofollow">
+    <i class={`fa-brands ${icon}`}></i>
+</a>

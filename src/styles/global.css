@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-space-cadet: #2b2d42ff;
+  --color-cool-gray: #8d99aeff;
+  --color-anti-flash-white: #edf2f4ff;
+  --color-red-pantone: #ef233cff;
+  --color-fire-engine-red: #d90429ff;
+
+  --color-primary: var(--color-red-pantone);
+  --color-secondary: var(--color-space-cadet);
+}
